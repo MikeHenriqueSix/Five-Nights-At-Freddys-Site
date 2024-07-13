@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+li:hover{
+    color: purple;
+}
+#logo{
+    width: 150px;
+    height: auto;
+}
+#banner{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11b37404-affb-4ab8-88cb-e6efdade8af9/df4tqet-1fa20728-369e-475b-a683-27390a129c69.png/v1/fill/w_1334,h_599,q_80,strp/fnaf_1_banner_by_officiallydumbb_df4tqet-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTk5IiwicGF0aCI6IlwvZlwvMTFiMzc0MDQtYWZmYi00YWI4LTg4Y2ItZTZlZmRhZGU4YWY5XC9kZjR0cWV0LTFmYTIwNzI4LTM2OWUtNDc1Yi1hNjgzLTI3MzkwYTEyOWM2OS5wbmciLCJ3aWR0aCI6Ijw9MTMzNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Fi_1deEfyHZvVLEjM1iOE66fmSpxqYKvFtUumQeqLcI);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* Usado para Trailer, Sinopse e Botao */
+#trailer-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trailer{
+    width: 50%;
+}
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.description{
+    color: white;
+    font-size: 19px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    width: 100%;
+}
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: purple;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*  Usado para fazer os Cards */
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.card:hover{
+    transform: scale(1.10);
+}
+
+
+.banner-1{
+    background-image: url(https://www.j-14.com/wp-content/uploads/2023/05/josh-hutcherson-2-1.jpg?resize=1200%2C1200&quality=86&strip=all);
+}
+.banner-2{
+    background-image: url(https://st2.depositphotos.com/5326338/9831/i/450/depositphotos_98316870-stock-photo-actor-matthew-lillard.jpg);
+}
+.banner-3{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZjZlZWYzYzMtNDkzMC00MDZkLWFjZmEtYmY5YjdjYzlhNDg3XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg);
+}
+
+/* Usado para Direitos Autorais */
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    color: white;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.footer-navigation{
+    display: none;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Dimensões de Tela */
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: flex;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;
+    }
+    #trailer-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trailer{
+        width: 100%;
+        
+    }
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
