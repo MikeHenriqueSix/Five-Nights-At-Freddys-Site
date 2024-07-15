@@ -52,6 +52,7 @@ h1{
     width: 100%;
     justify-content: space-around;
     margin-top: 50px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(59, 3, 59);
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 h2{
@@ -65,15 +66,26 @@ h2{
 }
 .franchise{
     list-style: none;
-    color: white;
-    font-size: 19px;
+    color: purple;
+    font-size: 30px;
     display: flex;
     width: 100%;
+    margin-top: 100px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(59, 3, 59);
     justify-content: space-around;
-    font-family: "Barrio", system-ui;
+    font-family: "Kdam Thmor Pro", sans-serif;
 }
 
-
+.click{
+    list-style: none;
+    color: purple;
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    text-shadow: 0.1em 0.1em 0.05em rgb(59, 3, 59);
+    justify-content: space-around;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
 .actor-cards-container{
     width: 100%;
     display: flex;
@@ -100,12 +112,12 @@ h2{
     justify-content: flex-end;
     padding: 0 0 20px 10px;
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 .fnaf1:hover{
     transform: scale(1.10);
-    background-image: url(./assets/Five\ Nights\ at\ Freddy\ s.gif);
+    background-image: url(./assets/Gif/FNAF-1-GIF.gif);
 }
 .fnaf2{
     width: 100%;
@@ -125,7 +137,7 @@ h2{
 }
 .fnaf2:hover{
     transform: scale(1.10);
-    background-image: url(./assets/FNAF-2.gif);
+    background-image: url(./assets/Gif/FNAF-2-GIF.gif);
 }
 .fnaf3{
     width: 100%;
@@ -145,16 +157,103 @@ h2{
 }
 .fnaf3:hover{
     transform: scale(1.10);
-    background-image: url(./assets/FNAF-3.gif);
+    background-image: url(./assets/Gif/FNAF-3-GIF.gif);
+}
+.fnaf4{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.fnaf4:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/Gif/FNAF-4-GIF.gif);
+}
+.fnaf5{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.fnaf5:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/Gif/FNAF-5-GIF.gif);
+}
+.fnaf6{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.fnaf6:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/Gif/FNAF-6.gif);
 }
 .banner-1{
     background-image: url(./assets/Fnaf-1.jpg);
 }
 .banner-2{
-    background-image: url(./assets/FNAF_2.png);
+    background-image: url(./assets/FNAF-2.png);
 }
 .banner-3{
     background-image: url(./assets/FNAF-3.jpg);
+}
+.banner-4{
+    background-image: url(./assets/FNAF-4.png);
+}
+.banner-5{
+    background-image: url(./assets/FNAF-5.jpg);
+}
+.banner-6{
+    background-image: url(./assets/FNAF-6.jpg);
+}
+.banner-7{
+    background-image: url(./assets/FNAF-6.jpg);
+}
+.banner-8{
+    background-image: url(./assets/FNAF-6.jpg);
+}
+.banner-9{
+    background-image: url(./assets/FNAF-6.jpg);
+}
+.banner-10{
+    background-image: url(./assets/FNAF-6.jpg);
+}
+.banner-11{
+    background-image: url(./assets/FNAF-6.jpg);
+}
+.banner-12{
+    background-image: url(./assets/FNAF-6.jpg);
 }
 
 footer{
