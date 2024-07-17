@@ -31,12 +31,25 @@ li{
 li:hover{
     color: purple;
 }
+
+h1{
+    list-style: none;
+    color: purple;
+    font-size: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(59, 3, 59);
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
 #logo{
     width: 150px;
     height: auto;
 }
 #banner{
-    background-image: url(./assets/Banner\ 2.png);
+    background-image: url(https://pm1.aminoapps.com/8194/cee9bed77682d0e464049ad045ee4cf39915905br1-1720-845v2_hq.jpg);
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
@@ -64,6 +77,41 @@ span{
     flex-direction: column;
     align-items: center;
 }
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.games-contant{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.gf{
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: red;
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.banner-1{
+    background-image: url(./assets/gold_freddy.jpeg);
+}
+
+
 @media(max-width: 768px){
     .footer-navigation{
         display: flex;
@@ -75,5 +123,18 @@ span{
 
     #banner{
         background-position: 40%;
+    }
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .games-contant{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
     }
 }
