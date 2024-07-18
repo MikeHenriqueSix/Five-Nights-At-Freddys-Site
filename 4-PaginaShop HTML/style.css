@@ -55,7 +55,9 @@ h1{
     width: 100%;
     height: 600px;
 }
-
+p{
+    background-color: rgba(255, 255, 255, 0.0);
+}
 
 footer{
     height: 300px;
@@ -86,9 +88,9 @@ span{
 .games-contant{
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 3fr);
     row-gap: 20px;
-    column-gap: 40px;
+    column-gap: 2spx;
 }
 .gf{
     width: 90%;
@@ -102,15 +104,19 @@ span{
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 20px 10px;
-    color: red;
+    color: white;
     font-size: 20px;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .banner-1{
-    background-image: url(./assets/gold_freddy.jpeg);
+    background-image: url(./assets/GF-Front.png);
 }
-.gf{
+.banner-1:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/GF-Back.png);
+}
+.fd{
     width: 90%;
     height: 400px;
     background-size: cover;
@@ -122,13 +128,113 @@ span{
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 20px 10px;
-    color: red;
+    color: white;
     font-size: 20px;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 
-.banner-1{
-    background-image: url(./assets/gold_freddy.jpeg);
+.banner-2{
+    background-image: url(./assets/FD-Front.png);
+}
+.banner-2:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/FD-Back.png);
+}
+.ch{
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.banner-3{
+    background-image: url(./assets/CH-Front.png);
+}
+.banner-3:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/CH-Back.png);
+}
+.fy{
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.banner-4{
+    background-image: url(./assets/FY-Front.png);
+}
+.banner-4:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/FY-Back.png);
+}
+.bn{
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.banner-5{
+    background-image: url(./assets/BN-Front.png);
+}
+.banner-5:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/BN-Back.png);
+}
+.ml{
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.banner-6{
+    background-image: url(./assets/ML-Font.png);
+}
+.banner-6:hover{
+    transform: scale(1.10);
+    background-image: url(./assets/ML-Back.png);
 }
 
 @media(max-width: 768px){
